@@ -1,0 +1,428 @@
+/* CSS Painel do Gestor - Novidades */
+
+/* Espaçamento Snippets 
+---------------------------------------*/
+.pr0 {
+  padding-right: 0px !important;
+}
+
+.pt0 {
+  padding-top: 0px !important;
+}
+
+.p5 {
+  padding: 5px !important;
+}
+
+.pl5 {
+  padding-left: 5px !important;
+}
+
+.pr5 {
+  padding-right: 5px !important;
+}
+
+.pl0 {
+  padding-left: 0px !important;
+}
+
+.phrt10 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.phrt10 {
+  padding: 0 10px !important;
+}
+
+.pvrt10 {
+  padding: 10px 0 !important;
+}
+
+.mr5 {
+  margin-right: 5px !important;
+}
+
+.mt12 {
+  margin-top: 12px !important;
+}
+
+.mt15 {
+  margin-top: 15px !important;
+}
+
+.mt22 {
+  margin-top: 22px !important;
+}
+
+.mt30 {
+  margin-top: 30px !important;
+}
+
+.mb15 {
+  margin-bottom: 15px !important;
+}
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
+
+/* Alinhamento Snippets 
+---------------------------------------*/
+.table-parent {
+  display: table !important;
+  width: calc(100% - 12px);
+}
+
+.table-verticalMiddle {
+  display: table-cell !important;
+  vertical-align: middle !important;
+}
+
+/* Cores e Estilos KPI 
+---------------------------------------*/
+.bg-blue-100 {
+  background: #f6f9fb !important;
+}
+
+.bg-white {
+  background: #ffffff !important;
+}
+
+/* Card Dashboard
+---------------------------------------*/
+.shadow-xs {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+.border-0 {
+  border: 0 !important;
+}
+
+.card-dashboard {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.panel.card-dashboard {
+  margin: 6px !important;
+}
+
+/* Navegação
+---------------------------------------*/
+.navbar-nav > li > a {
+  padding: 15px 6px !important;
+}
+
+nav.navbar.navbar-default.nav-inside.mb.bg-white.card-dashboard.shadow-xs.border-0.p0.affix-top {
+  z-index: 20;
+}
+
+.nav-inside {
+  border: 1px solid rgba(40, 113, 129, 0.16) !important;
+  border-radius: 4px;
+}
+
+/* Panel Header Total
+---------------------------------------*/
+.wrapper-indicators-panels {
+  z-index: 0;
+  border-top: 1px solid rgba(40, 113, 129, 0.16) !important;
+  margin-top: -111px;
+  padding-top: 80px !important;
+}
+
+.wrapper-indicators-panels.without-subFP {
+  position: relative;
+  top: -55px;
+  padding-top: 40px !important;
+}
+
+/* Filter Pills Submenu
+---------------------------------------*/
+.panel-tilte-style3 {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00005c;
+}
+
+.subFilter-pills {
+  background: #fbfbfb;
+  border-top: 1px solid rgba(40, 113, 129, 0.16);
+}
+
+.subfilter-pills .nav-pills {
+  float: left !important;
+}
+
+.subFilter-pills .nav-pills li a {
+  border-radius: 108px 108px !important;
+  border: 0;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.subFilter-pills .nav-pills li.active a {
+  border-radius: 108px 108px !important;
+  background: #00aace;
+  color: #ffffff;
+  font-weight: bold;
+  border: 2px solid #00aace;
+  padding: 9.2px 15px;
+}
+
+.subFilter-pills .nav-pills li.active a:hover {
+  background: #009abb;
+  color: #ffffff;
+  border: 2px solid #009abb;
+}
+
+/* Panel Header Total
+---------------------------------------*/
+.panel-tilte-style2 {
+  font-style: italic;
+  font-size: 22px;
+  line-height: 110%;
+  color: #30307a;
+}
+
+.group-network-style2 i {
+  vertical-align: middle;
+  display: inline-block;
+  min-width: 40px;
+  text-align: left;
+  color: #ccc;
+  font-size: 32px;
+}
+
+.group-network-style2 li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.group-network-style2 .group-name span {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  display: block;
+}
+
+.group-network-style2 .group-name .group-number {
+  font-size: 18px;
+  line-height: 25px;
+  color: #00aace;
+}
+
+/* Componentes Geral
+---------------------------------------*/
+.panel-indicator {
+  text-align: center;
+}
+
+.panel-tilte-blue {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  /* text-align: center; */
+  color: #00aace;
+}
+
+.indicator-number {
+  font-weight: bold;
+  font-size: 32px !important;
+  line-height: 110%;
+  color: #00aace !important;
+}
+
+.panel-indicator-text .indicator-number,
+.panel-indicator-list .indicator-number {
+  text-align: right;
+  /* float: right; */
+}
+
+.indicator-number-left {
+  font-weight: bold;
+  font-size: 22px !important;
+  text-align: left;
+  color: #00aace !important;
+  line-height: 20% !important;
+  margin-top: 15px;
+}
+
+.panel-indicator-single span,
+.panel-indicator-text span,
+.panel-indicator-list {
+  font-size: 14px;
+  line-height: 120%;
+  color: #728488;
+  display: block;
+  margin-bottom: 15px;
+  height: 30px; /* Teste */
+}
+
+.panel-indicator-multiSeries span,
+.panel-indicator-histogram span,
+.panel-indicator-group span {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.panel-indicator-multiSeries,
+.panel-indicator-group-multiSeriesAndBar {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  /* text-align: center; */
+  color: #00aace;
+}
+
+/* Componentes Title Separator Panel
+---------------------------------------*/
+.title-separator-panels {
+  color: #92aaba;
+  -webkit-text-fill-color: #92aaba;
+  font-size: 1.1em;
+  position: relative;
+  text-align: center;
+}
+
+.title-separator-panels span {
+  background: #f6f9fb none repeat scroll 0 0;
+  padding: 0 30px;
+  position: relative;
+  z-index: 0;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.title-separator-panels::before {
+  background: #e0e4e6 none repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 0;
+}
+
+/* Componentes Single Variable
+---------------------------------------*/
+.panel-indicator-single {
+  display: grid;
+  justify-content: center;
+}
+
+.panel-indicator-single .chart-wrapper {
+  margin: auto;
+  vertical-align: middle;
+}
+
+.panel-indicator-single.h-controller-2 {
+  min-height: 291px;
+}
+
+.indicator-number-value {
+  font-weight: bold;
+  font-size: 42px !important;
+  line-height: 70% !important;
+  color: #00aace !important;
+  margin: 0;
+}
+
+.indicator-number-subtitle {
+  font-size: 20px !important;
+  line-height: 140% !important;
+  color: #00aace !important;
+  margin: 0 !important;
+  font-weight: normal;
+}
+
+/* Componentes Indicator Single Variable - 1 Line
+---------------------------------------*/
+.panel-indicator-text span {
+  font-size: 14px;
+  line-height: 120%;
+  color: #728488;
+  display: block;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Componentes Indicator List
+---------------------------------------*/
+.indicator-tilte-list {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  color: #728488;
+}
+
+.panel-indicator-list ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.panel-indicator-list,
+.panel-indicator-list ul {
+  margin-bottom: 0px;
+}
+
+.panel-indicator-list li {
+  padding: 5px;
+  text-align: left;
+}
+
+.panel-indicator-list li span {
+  padding: 5px;
+}
+
+/* Componentes Indicator Histogram
+---------------------------------------*/
+
+/* Componentes Indicator Group
+---------------------------------------*/
+.panel-indicator-group .indicator-number,
+.panel-indicator-list .indicator-number {
+  font-size: 22px !important;
+  display: block;
+}
+
+.panel-indicator-text-mini span {
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 120%;
+  color: #696f71;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.panel-indicator-text-mini .indicator-number {
+  margin-bottom: 0;
+}
+
+/* Media Queries
+---------------------------------------*/
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .group-network-style2 ul {
+    padding: 0;
+  }
+
+  .group-network-style2 ul li {
+    margin-top: 15px;
+  }
+}
+
+.affix + .wrapper-indicators-panels {
+  clear: both !important;
+}
