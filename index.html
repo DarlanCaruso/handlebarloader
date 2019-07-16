@@ -19,30 +19,45 @@
     <script>
       var hand = EPIMEDJS.Handlebars;
       $(function() {
-        var arrTemplates = [
-          //   "card-chart",
-          //   "card-compose-info",
-          //   "card-info",
-          //   "card-multiple",
-          "title",
-          "title2"
-        ];
+        var arrTemplates = ["card-chart"];
         hand.preCompileTemplates(arrTemplates).then(function() {
           var json = {
             json: [
               {
-                title: "Louco",
-                author: "giuliano"
+                id: 1,
+                title: "teste1",
+                author: "darlan",
+                chart: [
+                  {
+                    x: [1, 2, 3, 4],
+                    y: [10, 15, 13, 17],
+                    type: "scatter"
+                  },
+                  {
+                    x: [1, 2, 3, 4],
+                    y: [16, 5, 11, 9],
+                    type: "scatter"
+                  }
+                ]
               },
               {
-                title: "Pimpolho",
-                author: "Darlam"
+                id: 2,
+                title: "teste2",
+                author: "darlan",
+                chart: null
               }
             ]
           };
 
-          hand.fillDiv(arrTemplates[0], arrTemplates[0], json);
-          hand.fillDiv(arrTemplates[1], arrTemplates[1], json);
+          (function() {
+            var data = json.json;
+            for (var i = 0; i < data.length; i++) {
+              hand.fillDiv(arrTemplates[i], arrTemplates[i], json);
+              if (data[i].chart !== null) {
+                Plotly.newPlot("plotly-chart-" + data[i].id, data[i].chart);
+              }
+            }
+          })();
 
           console.log("finish");
         });

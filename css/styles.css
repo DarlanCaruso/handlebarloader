@@ -1,5 +1,9 @@
 /* CSS Painel do Gestor - Novidades */
 
+body {
+  background-color: #ccc;
+}
+
 /* Espaçamento Snippets 
 ---------------------------------------*/
 .pr0 {
