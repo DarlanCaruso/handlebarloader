@@ -36,12 +36,13 @@ EPIMEDJS.Handlebars = (function() {
 
     for (var i = 0; i < arrTemplates.length; i++) {
       var row = arrTemplates[i];
-      console.log("arrTemplates[tpl]", row[name]);
+      console.log("arrTemplates[tpl]", row);
       if (row["name"] == name) {
         temptpl = row["template"];
         break;
       }
     }
+
     if (temptpl) $("#" + target).html(temptpl(data));
   };
 
