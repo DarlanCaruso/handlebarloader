@@ -29,6 +29,7 @@ EPIMEDJS.Handlebars = (function(){
             }, 'html');*/
         }
     }
+
     var fillDiv =function (name, target, data) {
         if(arrTemplates.length == 0) {
             console.log("É preciso passar templates antes de chamar o método fillDiv.");
